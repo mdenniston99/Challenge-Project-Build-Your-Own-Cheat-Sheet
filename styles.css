@@ -1,0 +1,55 @@
+/* Global styles */
+html, body {
+  width: 100%;
+  text-align: center;
+  background-color: FloralWhite;
+}
+
+/* Table styles */
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 50%;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th {
+  height: 50px;
+  text-align: left;
+  background-color: darkblue;
+  color: white;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  font-size: 14px;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: lightblue;
+}
+
+/* Link and list styles */
+a, li {
+  color: black;
+  font-weight: bold;
+}
+
+/* Code block styles */
+.code {
+  font-family: Courier, Monaco, monospace;
+  font-size: 13px;
+}
+
+/* Navigation styles */
+nav {
+  text-align: left !important;
+}
+
+/* Heading and list styles */
+h1, h2, ul {
+  color: darkblue;
+  font-family: Helvetica;
+}
